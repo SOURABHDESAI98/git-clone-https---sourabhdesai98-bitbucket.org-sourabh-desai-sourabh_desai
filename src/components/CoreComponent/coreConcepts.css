@@ -1,0 +1,22 @@
+#core-concepts{
+    max-width: 1800px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#sub-component{
+    max-width: 500px;
+  
+    position: relative;
+    height: 500px;
+}
+
+#sub-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+}
